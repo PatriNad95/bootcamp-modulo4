@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="turno-display">
+      <h1 id="numero-turno" class="numero-turno"></h1>
+      <p class="texto-turno">Por favor, acérquese al mostrador</p>
+    </div>
+    <div class="buttons">
+      <button id="nextButton" class="buttons-style">Siguiente</button>
+      <button id="previousButton" class="buttons-style">Anterior</button>
+      <button id="resetButton" class="buttons-style">Reset</button>
+    </div>
+    <div class="buttons">
+      <input id="inputTurn" type="number"></input>
+      <button id="setButton" class="buttons-style">Seleccionar Turno</button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
